@@ -1,5 +1,3 @@
-/* COMMON OPTIONS */
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -13,9 +11,6 @@ body {
     background-color: #dedede;
     min-width: 320px;
 }
-
-/* HEADER */
-
 header {
     background-color: #000000;
     color: #fff5f0;
@@ -28,8 +23,6 @@ header a {
     display: inline-block;
     padding: 43px;
 }
-
-/* SECTION */
 
 section a {
     color: black;
@@ -46,6 +39,7 @@ section li.catalog-cell:hover h4 {
     /*background-color: #c0c7c5;*/
     border-bottom: 5px solid black;
 }
+
 section li.catalog-cell:hover h3 {
     background-color: #e7eff4;
 }
@@ -60,39 +54,7 @@ section p {
     font-size: 20px;
     text-indent: 20px;
 }
-section {
-    background-color: #ffffff;
 
-    padding-top: 20px;
-
-    width: 80%;
-    max-width: 1400px;
-    margin: auto;
-
-    text-align: center;
-    font-family: Calibri, serif;
-}
-section #catalog {
-    padding: 0;
-    overflow: hidden;
-}
-section .catalog-cell {
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
-
-    max-width: 100%;
-    width: 400px;
-    height: 300px;
-    /*max-height: 300px;*/
-}
-
-section img {
-    width: 100%;
-    height: 100%;
-}
-
-/* NAVIGATION */
 
 nav * {
     padding: 0;
@@ -130,12 +92,45 @@ nav a {
     margin: 0;
     width: 100%;
 }
+
 nav a:hover {
     background-color: #ffffff;
     color: black;
 }
 
-/* FOOTER */
+section {
+    background-color: #ffffff;
+
+    padding-top: 20px;
+
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+
+    text-align: center;
+    font-family: Calibri, serif;
+}
+
+section #catalog {
+    padding: 0;
+    overflow: hidden;
+}
+section .catalog-cell {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    /*max-height: 300px;*/
+}
+
+section img {
+    /*background-color: aliceblue;*/
+    width: 100%;
+    height: 100%;
+}
 
 footer {
     position: absolute;
@@ -150,8 +145,6 @@ footer {
     color: white;
     text-align: center;
 }
-
-/* RESPONSIVE FEATURES */
 
 @media only screen and (max-width: 600px){
     nav ul#menu li {
