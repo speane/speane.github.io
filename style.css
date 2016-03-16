@@ -183,4 +183,7 @@ footer {
     section {
         width: 100%;
     }
+    header a {
+        padding: 20px;
+    }
 }
