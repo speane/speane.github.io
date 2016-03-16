@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 50px;
+    background-color: #dedede;
+    min-width: 320px;
+}
+header {
+    background-color: #000000;
+    color: #fff5f0;
+    font-family: Constantia, serif;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #f8fffd;
+    display: inline-block;
+    padding: 43px;
+}
+
+section a {
+    color: black;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+section h4 {
+    color: brown;
+}
+section li.catalog-cell:hover h4 {
+    /*background-color: #c0c7c5;*/
+    border-bottom: 5px solid black;
+}
+
+section li.catalog-cell:hover h3 {
+    background-color: #e7eff4;
+}
+section li {
+    margin-bottom: 70px;
+}
+section h2 {
+    padding: 20px;
+}
+section p {
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+
+nav * {
+    padding: 0;
+}
+nav {
+    font-family: Candara, serif;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #000000;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    color: #000000;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+nav li.left-nav-item {
+    float: left;
+}
+nav li.right-nav-item {
+    float: right;
+}
+nav a {
+    font-size: 17px;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+section {
+    background-color: #ffffff;
+
+    padding-top: 20px;
+
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+
+    text-align: center;
+    font-family: Calibri, serif;
+}
+
+section #catalog {
+    padding: 0;
+    overflow: hidden;
+}
+section .catalog-cell {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    /*max-height: 300px;*/
+}
+
+section img {
+    /*background-color: aliceblue;*/
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    padding: 20px;
+
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    nav ul#menu li {
+        float: none;
+        display: block;
+    }
+    section {
+        width: 100%;
+    }
+}
