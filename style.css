@@ -135,6 +135,10 @@ nav a:hover {
     color: black;
 }
 
+nav #menu-expand {
+    display: none;
+}
+
 /* FOOTER */
 
 footer {
@@ -157,6 +161,12 @@ footer {
     nav ul#menu li {
         float: none;
         display: block;
+    }
+    nav #menu-expand {
+        display: block;
+    }
+    nav ul#menu li.expandable {
+        display: none;
     }
     section {
         width: 100%;
