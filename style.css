@@ -138,11 +138,16 @@ nav ul#expand-menu li {
     text-align: center;
     width: 100%;
     display: none;
+    background-color: #333333;
 }
 nav ul#expandable-menu li {
     text-align: center;
     width: 100%;
     display: none;
+}
+nav ul#expand-menu li a:hover {
+    background-color: #333333;
+    color: white;
 }
 
 /* FOOTER */
