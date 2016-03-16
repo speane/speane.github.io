@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("nav #menu-expand").click(function(){
-        $("nav ul#menu li.expandable").toggle(0);
+    $("nav #expand-menu").click(function(){
+        $("nav ul#expandable-menu li").slideToggle(0);
     });
 });
