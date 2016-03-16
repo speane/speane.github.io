@@ -50,7 +50,7 @@ section li.catalog-cell:hover h3 {
     background-color: #e7eff4;
 }
 section li {
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 section h2 {
     padding: 20px;
@@ -62,7 +62,7 @@ section p {
 }
 section {
     background-color: #ffffff;
-
+    /*min-height: 650px;*/
     padding-top: 20px;
 
     width: 80%;
@@ -72,9 +72,29 @@ section {
     text-align: center;
     font-family: Calibri, serif;
 }
+section ul li {
+    text-align: left;
+}
+section p {
+    clear: both;
+}
+section ul {
+    float: left;
+}
+section img {
+    max-width: 600px;
+    max-height: 500px;
+    float: left;
+    margin: auto;
+}
+
 section #catalog {
     padding: 0;
     overflow: hidden;
+}
+section ul {
+    margin-top: 50px;
+    list-style-type: none;
 }
 section .catalog-cell {
     margin-right: auto;
@@ -90,6 +110,9 @@ section .catalog-cell {
 section img {
     width: 100%;
     height: 100%;
+}
+section #price {
+    color: red;
 }
 
 /* NAVIGATION */
